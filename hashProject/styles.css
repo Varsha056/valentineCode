@@ -1,0 +1,54 @@
+/* Centering the button container */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Bradley Hand', cursive;
+  background-color: #f0f0f0; /* Fallback background color */
+}
+
+.background-image {
+  background-image: url('https://images.unsplash.com/photo-1616544567842-573ff1565c54?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2FrdXJhJTIwZmxvd2VyfGVufDB8fDB8fHww'); /* Add the path to your background image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for content */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cat-gif {
+  max-width: 100%;
+}
+
+.content-below {
+  margin-top: 20px;
+}
+
+.button-container button {
+  background-color: #4CAF50; /* Green background */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+/* Change mouse cursor to question mark on hover */
+.button-container button:hover {
+  cursor: help;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
